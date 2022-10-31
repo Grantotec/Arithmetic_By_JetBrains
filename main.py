@@ -65,8 +65,8 @@ def menu_2():
 
 
 def main():
-    diff = input("Which level do you want? Enter a number:"
-                 "1 - simple operations with numbers 2-9"
+    diff = input("Which level do you want? Enter a number:\n"
+                 "1 - simple operations with numbers 2-9\n"
                  "2 - integral squares of 11-29\n")
     while diff not in ["1", "2"]:
         print("Incorrect format.")
